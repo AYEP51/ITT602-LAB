@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">lab6b-talib</string>
+    <string name="close">CLOSE</string>
+    <string name="message">Message</string>
+    <string name="please_input_custom_message">Please input custom message</string>
+    <string name="input_message" />
+    <string name="set_notification" />
+</resources>
