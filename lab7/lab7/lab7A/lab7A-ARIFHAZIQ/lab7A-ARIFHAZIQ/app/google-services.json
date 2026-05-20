@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "27578415777",
+    "project_id": "lab7a-talib",
+    "storage_bucket": "lab7a-talib.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:27578415777:android:3fde6fec2334f09ae38ee0",
+        "android_client_info": {
+          "package_name": "com.example.lab7a_talib"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjYysrh4e3dDe8RnHs9IZnn1pW9ev2itQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
