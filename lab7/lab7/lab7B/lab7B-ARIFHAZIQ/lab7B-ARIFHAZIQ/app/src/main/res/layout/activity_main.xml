@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <ImageButton
+        android:id="@+id/btnCall"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_margin="8dp"
+        android:background="@android:drawable/btn_default"
+        android:backgroundTint="#FF9800"
+        android:contentDescription="@string/call"
+        android:padding="16dp"
+        android:src="@android:drawable/ic_menu_call"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageButton
+        android:id="@+id/btnMessage"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_margin="8dp"
+        android:background="@android:drawable/btn_default"
+        android:backgroundTint="#4CAF50"
+        android:contentDescription="@string/send_message"
+        android:padding="16dp"
+        android:src="@android:drawable/ic_dialog_dialer"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageButton
+        android:id="@+id/btnWebsite"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_margin="8dp"
+        android:background="@android:drawable/btn_default"
+        android:backgroundTint="#03A9F4"
+        android:contentDescription="@string/website"
+        android:padding="16dp"
+        android:src="@android:drawable/ic_menu_view"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageButton
+        android:id="@+id/btnEmail"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_margin="8dp"
+        android:backgroundTint="#9C27B0"
+        android:background="@android:drawable/btn_default"
+        android:padding="16dp"
+        android:src="@android:drawable/ic_dialog_email"
+        android:contentDescription="@string/send_email" />
+
+</LinearLayout>
