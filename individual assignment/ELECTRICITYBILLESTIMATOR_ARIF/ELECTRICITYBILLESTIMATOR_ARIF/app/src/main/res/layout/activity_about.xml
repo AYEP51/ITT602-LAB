@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EAF4FF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <ImageView
+            android:id="@+id/imgProfile"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:src="@drawable/profile"
+            android:scaleType="centerCrop"
+            android:layout_gravity="center"
+            android:contentDescription="@string/student_picture"
+            android:layout_marginBottom="15dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/about_this_application"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#0D47A1"
+            android:gravity="center"
+            android:layout_marginBottom="15dp" />
+
+        <TextView
+            android:id="@+id/tvAboutInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/full_name_muhamad_arif_haziq_bin_mohd_yazihasmawi_10_student_id_2025117261_10_course_code_ict602_10_course_name_mobile_technology_10_10_application_description_10_this_application_is_developed_to_estimate_monthly_electricity_bills_based_on_month_electricity_unit_used_and_rebate_percentage_10_10_how_to_use_10_1_select_the_month_10_2_enter_electricity_unit_used_from_1_to_1000_kwh_10_3_enter_rebate_percentage_from_0_to_5_10_4_tap_calculate_and_save_10_5_view_saved_records_in_the_list_page_10_6_click_any_record_to_view_update_or_delete_it_10_10_copyright_2026_muhamad_arif_haziq_bin_mohd_yazihasmawi"
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:background="#FFFFFF"
+            android:padding="15dp"
+            android:layout_marginBottom="20dp" />
+
+        <TextView
+            android:id="@+id/tvWebsite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/open_application_website_github"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#0D47A1"
+            android:gravity="center"
+            android:padding="15dp"
+            android:background="#FFFFFF" />
+
+    </LinearLayout>
+</ScrollView>
