@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Lab9B</string>
+    <string name="open_url">Open URL</string>
+    <string name="back">Back</string>
+    <string name="scan_qr_code">Scan QR Code</string>
+    <string name="scan_from_gallery">Scan From Gallery</string>
+</resources>
